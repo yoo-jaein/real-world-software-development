@@ -17,6 +17,6 @@
 - [X] [02장 입출금 내역 분석기](https://github.com/yoo-jaein/real-world-software-development/blob/main/docs/chapter_02/chapter_02.md)
 - [X] [03장 입출금 내역 분석기 확장판](https://github.com/yoo-jaein/real-world-software-development/blob/main/docs/chapter_03/chapter_03.md)
 - [X] [04장 문서 관리 시스템](https://github.com/yoo-jaein/real-world-software-development/blob/main/docs/chapter_04/chapter_04.md)
-- [ ] 05장 비즈니스 규칙 엔진
+- [X] [05장 비즈니스 규칙 엔진](https://github.com/yoo-jaein/real-world-software-development/blob/main/docs/chapter_05/chapter_05.md)
 - [ ] 06장 트우터
 - [ ] 07장 트우터 확장판
