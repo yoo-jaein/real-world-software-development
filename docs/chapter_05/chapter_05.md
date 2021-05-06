@@ -24,21 +24,21 @@
 
 ## mockito
 1. 라이브러리 임포트  
-    ```   
+    ```java   
     import static org.mockito.Mockito.*;
     ```
 2. 정적 메소드 mock()으로 필요한 목 객체를 만든다.  
-    ```   
+    ```java   
     final Action mockAction = mock(Action.class);
     ```  
 3. verify() 메소드로 특정 메소드가 호출하는지 확인하는 어서션을 만든다.  
-    ```   
+    ```java   
     verify(mockAction).perform();
     ```  
 
 ## 다이아몬드 연산자  
 - Java 7에서 추가된 기능이다.  
-    ```
+    ```java
       Map<String, String> facts = new HashMap<>();
     ```
 
@@ -46,7 +46,7 @@
 - Java 10은 지역 변수 형식 추론을 지원한다.  
 - 형식 추론(type inference)이란 컴파일러가 정적 형식을 자동으로 추론해 결정하는 기능이다.  
 - 형식 추론이 지역 변수까지 확장되어 적용된다.  
-    ```  
+    ```java  
     var env = new Facts();  
     var BusinessRuleEngine = new BusinessRuleEngine(env);
     ```  
@@ -54,7 +54,7 @@
 
 ## 새로운 switch문  
 - Java 12에서 새로운 switch문을 이용해 여러 개의 break문을 사용하지 않고도 폴스루를 방지할 수 있다.  
-    ```
+    ```java
     var forecastedAmount = amount * switch (dealStage) {  
         case LEAD -> 0.2;  
         case EVALUATING -> 0.5;  
